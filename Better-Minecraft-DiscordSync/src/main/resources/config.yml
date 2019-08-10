@@ -1,0 +1,107 @@
+##################################################################################################
+# ############################ BY: NukkitX-Projects - depascaldc ############################### #
+# ############################################################################################## #
+# ############ Copyright (C) 2019 | depascaldc - Management | All Rights Reserved ############## #
+# ################# WEBSITE: https://github.com/depascaldc/NukkitX-Projects##################### #
+##################################################################################################
+
+# Support - DISCORD: https://discord.gg/dqRMdEk
+
+# HOW TO BUILD A Discord - BOT ?
+# 1.visit https://discordapp.com/developers and create an application there.
+# 2. click the navbutton (Bot) then and create a Bot User.
+# 3. click at copy token to copy the bot_token
+
+# DONT change yourself
+configversion: 1
+
+# paste the bot token you recieved from the developer portal (description at above) gere
+bot_token: 'Paste your token here'
+
+# set the Bots Presence (the fancy text/onlinestatus under the bots name in memberlist)
+gameactivity:
+  enabled: true
+  text: '| NukkitServer'
+  # possible values PLAYING  (soon) -> WATCHING / LISTENING / STREAMING
+  type: 'PLAYING'
+  # pissible values online (soon) -> dnd / idle
+  onlinestatus: 'online'
+
+# copy your guild ID in here
+guild_to_sync_id: 'guildID here'
+
+# discordCommand prefix ( verify command coming soon // Serverinfo command too )
+bot_prefix: '/'
+
+# enable/disable commands DISCORD
+command_enabled:
+  verify: true
+  server: true
+  
+ # %e will be replaced with error if error got catched
+command_messages:
+  verify:
+    success: 'Not implemented yet'
+    error: 'ERROR: %e'
+  server:
+    success: 'Not implemented yet'
+    error: 'ERROR: %e'
+
+# enable/disable commands MINECRAFT
+mc_command_enabled:
+  commandname: true
+
+# enable / disable OnlineCounter of minecraftserver at your DiscordServer !!!needs to be a VoiceChannel!!!
+onlinecounter:
+  enabled: true
+  channel_id: 'VOICEchannelID'
+  # %on will be replaced with the online user %maxon will be replaced with the Max possible online players
+  countername: '(%on/%maxon) Players Online'
+
+# copy the channel ID in here
+chatchannel:
+  id: 'channelID here'
+# enable / disable Playerevents join/leave/death
+  ingame_playerevents: true
+# enable / disable Ingame- to DiscordChat sync
+  ingamechat_sync_enabled: true
+# enable / disable Ingame- to DiscordChat sync
+  discordchat_sync_enabled: true
+
+
+# enable / disable notifications when user join/leave guild
+guild_member_events_enabled: true
+
+# VERIFY MODULE (not implemented yet)
+verify:
+  roleID: 'roleID'
+  replace_nickname_to_ingamename: true
+
+# MESSAGES INGAME
+# ingameprefix (leave empty to disable)
+bot_name_ingame: '§aDiscordchat'
+# variables %prefix(ingameprefix) / %player / %message
+chatformatter: '%prefix >> §c%player >> §b%message'
+# %p will be replaced by the Username  || %d will be replaced with the 4 digit discriminatopr of the user
+member_join_discord: '%p#%d joined the Discordserver'
+member_leave_discord: '%p#%d left the Discordserver'
+
+
+# MESSAGES in Discord
+# chat ( embed author ) leave empty to disable
+chatname: 'Ingamechat Minecraft'
+# if you want colorize the CHAT embeds random type true 
+colorize_random: true
+# all %p will be replaced by the playername
+player:
+  join_message: '%p joined the server'
+  leave_message: '%p left the server'
+  # all %killer will be replaced by the killer
+  death_message: '%p died caused by %killer'
+  
+server:
+  start: 'Server started'
+  stop: 'Server stopped'
+  
+  
+  
