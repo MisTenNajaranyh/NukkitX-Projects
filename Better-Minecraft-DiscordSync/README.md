@@ -10,7 +10,7 @@
 > You ever wanted a Ingame - Crosschet between Discord and your Minecraft Nukkit Server ?
 > And you want a highly configurable Bot for it? 
 > THEN youre right here.
-> - [Download](https://github.com/depascaldc/NukkitX-Projects/raw/master/Compiled-Plugins/original-Better-Minecraft-DiscordSync-1.0.0-SNAPSHOT.jar)
+> - [Download](https://github.com/depascaldc/NukkitX-Projects/raw/master/Compiled-Plugins/Better-Minecraft-DiscordSync-1.0.0-SNAPSHOT.jar)
 
 >---
 >## HOW TO BUILD A Discord - BOT ?
