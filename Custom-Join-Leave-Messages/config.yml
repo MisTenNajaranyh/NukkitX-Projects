@@ -1,0 +1,26 @@
+##################################################################################################
+# ############################ BY: NukkitX-Projects - depascaldc ############################### #
+# ############################################################################################## #
+# ############ Copyright (C) 2019 | depascaldc - Management | All Rights Reserved ############## #
+# ################# WEBSITE: https://github.com/depascaldc/NukkitX-Projects##################### #
+##################################################################################################
+
+# 
+# Command to reload Config is /customjoinreload (Alias) /cjlreload
+# 
+
+# enable silent join/leave for players with op permission
+silentjoin_enabled: false
+
+# %p always will get replaced with the playername
+messages: 
+  join:
+    as_op: 'OP %p joined the server'
+    as_player: '%p joined the server'
+    first_join: '%p joined the server the first time'
+  leave:
+    as_op: 'OP %p left the server'
+    as_player: '%p left the server'
+    
+
+

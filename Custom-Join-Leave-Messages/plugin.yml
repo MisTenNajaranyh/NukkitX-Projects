@@ -1,0 +1,14 @@
+##################################################################################################
+# ############################ BY: NukkitX-Projects - depascaldc ############################### #
+# ############################################################################################## #
+# ############ Copyright (C) 2019 | depascaldc - Management | All Rights Reserved ############## #
+# ################# WEBSITE: https://github.com/depascaldc/NukkitX-Projects##################### #
+##################################################################################################
+
+name: Custom-JoinLeave
+main: de.depascaldc.nukkitxprojects.customjoinleave.Main
+version: "1.0.0"
+api: ["1.0.8"]
+author: depascaldc
+description: Customize your Join/Leave messages
+website: https://github.com/depascaldc/NukkitX-Projects
