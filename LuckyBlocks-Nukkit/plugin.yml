@@ -4,5 +4,5 @@ author: depascaldc
 api: ["1.0.8"]
 website: https://epic-mcpe.net
 description: allow using Sponge as a Luckyblock
-main: de.depascaldc.nukkitxprojects-luckyblocks.Main
+main: de.depascaldc.nukkitxprojects.luckyblocks.Main
 load: STARTUP

@@ -35,6 +35,10 @@ public class BlockDestroy implements Listener {
 	public void onEvent(BlockBreakEvent e) {
 		Block b = e.getBlock();
 		if (b.getId() == 19) {
+			
+			// just be able to open luckyblock when permission luckyblocks.open given
+			if(!e.getPlayer().hasPermission("luckyblocks.open"))
+				return;
 
 			boolean mobplugin = true;
 			if (e.getPlayer().getServer().getPluginManager().getPlugin("MobPlugin") == null)
@@ -270,8 +274,8 @@ public class BlockDestroy implements Listener {
 			}
 			// spawn random 1 - 4 entities of array entitytype
 			case 13: {
-				String[] entitytype = new String[] { "Cow", "Pig", "Horse", "Mushroom", "Blaze", "Cavespider",
-						"Creeper", "Enderman", "Ghast", "Zombiepigman", "Silverfish", "Slime", "Witch", "Zombie" };
+				String[] entitytype = new String[] { "Cow", "Pig", "Horse", "Mooshroom", "Blaze", "CaveSpider",
+						"Creeper", "Enderman", "Ghast", "ZombiePigman", "Silverfish", "Slime", "Witch", "Zombie" };
 				int Randomizer = (int) (Math.random() * (double) entitytype.length);
 				int count = getRandomInt(1, 3);
 				for (int i = 0; i < count; ++i) {
