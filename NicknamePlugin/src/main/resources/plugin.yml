@@ -1,0 +1,14 @@
+##################################################################################################
+# ############################ BY: NukkitX-Projects - depascaldc ############################### #
+# ############################################################################################## #
+# ############ Copyright (C) 2019 | depascaldc - Management | All Rights Reserved ############## #
+# ################# WEBSITE: https://github.com/depascaldc/NukkitX-Projects##################### #
+##################################################################################################
+
+name: NicnNamePlugin
+main: de.depascaldc.nukkitxprojects.nick.Main
+version: "1.0.0"
+api: ["1.0.8"]
+author: depascaldc
+description: let the users set a nickname
+website: https://github.com/depascaldc/NukkitX-Projects
