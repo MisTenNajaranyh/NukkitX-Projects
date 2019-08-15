@@ -1,0 +1,5 @@
+whitelist_enabled: false
+opjoin_always: true
+whitelist_reason: "Sorry you can't join the Server. It's whitelisted."
+
+whitelisted:

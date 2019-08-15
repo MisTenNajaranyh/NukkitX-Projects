@@ -1,0 +1,52 @@
+##################################################################################################
+# ############################ BY: NukkitX-Projects - depascaldc ############################### #
+# ############################################################################################## #
+# ############ Copyright (C) 2019 | depascaldc - Management | All Rights Reserved ############## #
+# ################# WEBSITE: https://github.com/depascaldc/NukkitX-Projects #################### #
+##################################################################################################
+
+# 
+# Command to reload Config is /moreessentialsreload (Alias) /mesreload ( permission: moreessentials.reload)
+# 
+
+configversion: 1
+
+# set the Date format default '%d / %m / %year'
+dateformat: '%d / %m / %year'
+# set timeformat (expire) default '%d days : %h hours : %m minutes : %s seconds'
+timeformat_expires: '%d days : %h hours : %m minutes : %s seconds'
+# set timeformat local time 
+timeformat_localtime: '%h:%m:%s'
+
+# here you can enable / disable the itemId shown as Popup by change item (The text above the hotbar)
+enable_itemid: true
+# here you can enable / disable 
+
+
+# tempban reasons. Add more options if you need more. expires need be given in minutes
+# %reason will be replaced wit reasonstring %expireas will be replaced wirh timeformat expires
+tempban_reasons:
+
+  - reason1: # this will be the key to ban for a reason /tempban playername reason1
+    message: 'Youre banned for %reason. Your ban expires in: %expires'
+    reason: 'Reason1 - Short description'
+    expires_in: 10
+    
+  - reason2: # this will be the key to ban for a reason /tempban playername reason2
+    message: 'Youre banned for %reason. Your ban expires in: %expires'
+    reason: 'Reason2 - Short description'
+    expires_in: 20
+    
+  - reason3: # this will be the key to ban for a reason /tempban playername reason3
+    message: 'Youre banned for %reason. Your ban expires in: %expires'
+    reason: 'Reason3 - Short description'
+    expires:in: 30
+  
+
+
+# messages
+messages:
+  
+
+
+
