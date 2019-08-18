@@ -1,20 +1,9 @@
-# Downloads:
+# NickName-lugin
+## This plugin allows players with the permission nickname.nick to set a Nickname
 
- - [Download Better-Minecraft-DiscordSync.jar](https://github.com/depascaldc/NukkitX-Projects/raw/master/Compiled-Plugins/Better-Minecraft-DiscordSync-1.0.0-SNAPSHOT.jar)
- 
- - [Download Custom-Join/Leave.Messages](https://github.com/depascaldc/NukkitX-Projects/raw/master/Compiled-Plugins/Custom-JoinLeave-Messages.jar)
- 
- - [Download LuckyBlocks-Nukkit](https://github.com/depascaldc/NukkitX-Projects/raw/master/Compiled-Plugins/LuckyBlocks-Nukkit.jar)
+### OP's can manage others nicknames
 
- - [DownLoad Custom-Join/Leave-Messages](https://github.com/depascaldc/NukkitX-Projects/raw/master/Compiled-Plugins/Custom-JoinLeave-Messages.jar)
-
- - [Download CommandSigns](https://github.com/depascaldc/NukkitX-Projects/raw/master/Compiled-Plugins/CommandSigns.jar)
-
-
-
-
-
-## All - Plugin - Source:
+## All - Plugins:
 - [Better-Minecraft-DiscordSync](https://github.com/depascaldc/NukkitX-Projects/tree/master/Better-Minecraft-DiscordSync) a highly configurable Discord and Minecraft Crosschat Plugin.
 - [Custom.Join/Leave.Messages](https://github.com/depascaldc/NukkitX-Projects/tree/master/Custom-Join-Leave-Messages) customize Join/Leave messages
 - [LuckyBlocks-Nukkit](https://github.com/depascaldc/NukkitX-Projects/tree/master/LuckyBlocks-Nukkit) replace Sponge with a Luckyblock
