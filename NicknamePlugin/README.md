@@ -1,4 +1,4 @@
-# NickName-lugin
+# NickName-Plugin
 ## This plugin allows players with the permission nickname.nick to set a Nickname
 
 ### OP's can manage others nicknames
